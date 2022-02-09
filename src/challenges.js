@@ -10,6 +10,7 @@ function compareTrue(numbA, numbB) {
 console.log(compareTrue(true, true))
 
 
+
 // Desafio 2
 function calcArea(base, height) {
   return (base*height)/2
@@ -17,10 +18,16 @@ function calcArea(base, height) {
 console.log(calcArea(51, 1))
 
 
+
 // Desafio 3
-function splitSentence() {
-  // seu código aqui
+function splitSentence(valores) {
+  let arrayValores = valores.split(" ")
+  return arrayValores
 }
+console.log(splitSentence('amo minha mãe'))
+
+
+
 
 // Desafio 4
 function concatName() {
