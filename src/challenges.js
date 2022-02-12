@@ -1,13 +1,13 @@
 // Desafio 1
 function compareTrue(numbA, numbB) {
   if(numbA === true && numbB === true){
-    return true
+    return true;
   }
   else{
-    return false
+    return false;
   }
 }
-console.log(compareTrue(true, true))
+console.log(compareTrue(true, true));
 
 
 
@@ -15,24 +15,33 @@ console.log(compareTrue(true, true))
 function calcArea(base, height) {
   return (base*height)/2
 }
-console.log(calcArea(51, 1))
+console.log(calcArea(51, 1));
 
 
 
 // Desafio 3
 function splitSentence(valores) {
-  let arrayValores = valores.split(" ")
-  return arrayValores
+  let arrayValores = valores.split(" ");
+  return arrayValores;
 }
-console.log(splitSentence('amo minha mãe'))
+console.log(splitSentence('Vamo que vamo'));
 
 
 
 
 // Desafio 4
-function concatName() {
-  // seu código aqui
-}
+ // seu código aqui
+function concatName(name){
+  let reserveName = []
+  reserveName.push(name[name.length - 1])
+  reserveName.push(name[0])
+  reserveName = reserveName.join(',')
+  return reserveName
+} 
+console.log(concatName(['foguete','nao','tem','re']))
+
+
+
 
 // Desafio 5
 function footballPoints() {
