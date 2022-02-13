@@ -38,15 +38,18 @@ function concatName(name){
   reserveName = reserveName.join(',')
   return reserveName
 } 
-console.log(concatName(['foguete','nao','tem','re']))
+
 
 
 
 
 // Desafio 5
-function footballPoints() {
-  // seu código aqui
+function footballPoints(wins, ties) {
+ const points = (wins*3)+ties
+ return points
+ 
 }
+
 
 // Desafio 6
 function highestCount() {
