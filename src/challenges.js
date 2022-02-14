@@ -51,16 +51,15 @@ function footballPoints(wins, ties) {
 
 // Desafio 6
 function highestCount(numbers) {
-  // seu código aqui
  let score = 0
-  bigger = numbers[0]
+ let bigger = numbers[0]
 for(let i = 0; i < numbers.length; i += 1){         //percorre numbers e retorna maior numero
   if(numbers[i] > bigger){
     bigger = numbers[i];
     }
   }  
 for(let c = 0; c < numbers.length; c += 1){         //percorre numbers e atualiza score
-  if(numbers === bigger){;
+  if(numbers[c] === bigger){
   score += 1;
   }
 }
@@ -72,11 +71,17 @@ return score;
 // Desafio 7
 function catAndMouse(mouse, cat1, cat2) {
   // seu código aqui
-  positionM = mouse
-  positionC1 = cat1 
-  positionC2 = cat2 [0]
-
-
+let mouseVsCat1 = Math.abs(cat1 - mouse);
+let mouseVsCat2 = Math.abs(cat2 - mouse);
+if(mouseVsCat1 < mouseVsCat2){
+  return cat1;
+}
+else if(mouseVsCat1 > mouseVsCat2){
+  return cat2;
+}
+else{
+  return "os gatos trombam e o rato foge";
+}
 }
 
 // Desafio 8
