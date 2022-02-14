@@ -32,15 +32,13 @@ console.log(splitSentence('Vamo que vamo'));
 // Desafio 4
  // seu código aqui
 function concatName(name){
-  let reserveName = []
-  reserveName.push(name[name.length - 1])
-  reserveName.push(name[0])
-  reserveName = reserveName.join(',')
-  return reserveName
+  let names = []
+
+  names.push((name[name.length-1]) + ", " + name[0]) 
+  
+  return names.join(',')
+  
 } 
-
-
-
 
 
 // Desafio 5
@@ -52,13 +50,33 @@ function footballPoints(wins, ties) {
 
 
 // Desafio 6
-function highestCount() {
+function highestCount(numbers) {
   // seu código aqui
+ let score = 0
+  bigger = numbers[0]
+for(let i = 0; i < numbers.length; i += 1){         //percorre numbers e retorna maior numero
+  if(numbers[i] > bigger){
+    bigger = numbers[i];
+    }
+  }  
+for(let c = 0; c < numbers.length; c += 1){         //percorre numbers e atualiza score
+  if(numbers === bigger){;
+  score += 1;
+  }
+}
+return score;
 }
 
+
+
 // Desafio 7
-function catAndMouse() {
+function catAndMouse(mouse, cat1, cat2) {
   // seu código aqui
+  positionM = mouse
+  positionC1 = cat1 
+  positionC2 = cat2 [0]
+
+
 }
 
 // Desafio 8
