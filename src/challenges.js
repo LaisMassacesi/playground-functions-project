@@ -71,13 +71,13 @@ return score;
 // Desafio 7
 function catAndMouse(mouse, cat1, cat2) {
   // seu código aqui
-let mouseVsCat1 = Math.abs(cat1 - mouse);
+let mouseVsCat1 = Math.abs(mouse - cat1);
 let mouseVsCat2 = Math.abs(cat2 - mouse);
 if(mouseVsCat1 < mouseVsCat2){
-  return cat1;
+  return "cat1";
 }
 else if(mouseVsCat1 > mouseVsCat2){
-  return cat2;
+  return "cat2";
 }
 else{
   return "os gatos trombam e o rato foge";
