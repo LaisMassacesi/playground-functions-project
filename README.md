@@ -1,4 +1,3 @@
-# :construction: README customizado em construção ! :construction:
 <h2>Playground Functions Project</h2>
 
 <h2>Trybe</h2>
@@ -18,7 +17,7 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 - Utilizar o comando for/in
 - Utilizar funções para organizar e estruturar o código
 
-> Arquivos com código desenvolvido por mim :paperclips:
+> Arquivo com código que desenvolvi :paperclips:
 - challenges.js
 
 <!-- Olá, Tryber!
